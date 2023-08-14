@@ -1,0 +1,37 @@
+Test cases and outputs
+
+# Test case 01
+
+Enter the pattern: cat | dog
+Enter the string: cat and dog
+
+# Output
+
+{'cat ': [0], ' dog': [7]}
+
+# Test case 02
+
+Enter the pattern: \bcat\b  
+Enter the string: cat and dog
+
+# Output
+
+[0]
+
+# Test case 03
+
+Enter the pattern: ^cat  
+Enter the string: cat and dog
+
+# Output
+
+True
+
+# Test case 04
+
+Enter the pattern: dog$  
+Enter the string: cat and dog
+
+# Output
+
+True
